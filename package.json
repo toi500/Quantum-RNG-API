@@ -1,0 +1,26 @@
+{
+  "name": "quantum-rng-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node-gyp configure && node-gyp rebuild",
+    "postinstall": "npm run build",
+    "prestart": "npm run build"
+  },
+  "gypfile": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Quantum RNG REST API",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-addon-api": "^6.1.0",
+    "node-gyp": "^9.4.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
