@@ -179,7 +179,3 @@ If you use this software in your research, please cite it as:
   url = {https://github.com/tsotchke/quantum_rng}
 }
 ```
-
-## License
-
-ISC License
